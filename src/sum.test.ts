@@ -1,8 +1,22 @@
-import { sum } from "./server";
+import { sum } from "./sum";
 
 //describe() - nome do grupo de testes - suite
 describe("sum", () => {
-  //test() - jest, nome e a função que será testada
+  let sumResult: number
+
+  //beforeAll() - executa uma função antes de todos os testes
+  beforeAll(() => {
+    sumResult = 10;
+    console.log("executado antes dos testes", sumResult);
+  });
+
+  //afterAll() - executa uma função depois de todos os testes
+  afterAll(() => {
+    sumResult = 0;
+    console.log("executado depois dos testes", sumResult);
+  });
+  
+  //test() nome e a função que será testada
   //it() = test()
   it("should do sum of 3 + 7 must be 10", () => {
     const result = sum(3, 7);
