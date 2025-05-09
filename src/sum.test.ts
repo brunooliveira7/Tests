@@ -1,4 +1,4 @@
 //test() - jest, nome e a função que será testada
-test("example test", () => {
-  console.log("test ok!");
+test("sum", () => {
+  console.log("test sum ok!");
 });
