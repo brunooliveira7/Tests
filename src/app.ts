@@ -23,6 +23,8 @@ const products = [
 const app = http.createServer((request, response) => {
   //rota para listar os produtos
   if (request.method === "GET" && request.url === "/products") {
+    //definindo o formato da resposta 
+    response.setHeader("Content-Type", "application/json");
     //retornando os produtos
     response.end(JSON.stringify(products));
   }
