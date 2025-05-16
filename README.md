@@ -1,4 +1,4 @@
-# Automated testing with Jest in Node.js Node.js
+# Tests
 
 Este repositório apresenta um exemplo prático de aplicação de **testes automatizados com Jest** em um projeto **Node.js**. O objetivo principal é entender como estruturar e aplicar testes, simulando **cenários reais e falhas**.
 
