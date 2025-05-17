@@ -15,3 +15,9 @@ Este repositório apresenta um exemplo prático de aplicação de **testes autom
 ## Objetivo
 
 Esse processo ajuda a criar uma base sólida para **testes mais complexos e confiáveis** em APIs desenvolvidas com Node.js.
+
+---
+
+<p align="center">
+  <img alt="License" src="">
+</p>
