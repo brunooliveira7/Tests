@@ -19,5 +19,5 @@ Esse processo ajuda a criar uma base sólida para **testes mais complexos e conf
 ---
 
 <p align="center">
-  <img alt="License" src="">
+  <img alt="License" src="https://github.com/brunooliveira7/Tests/blob/main/assets/Testes%20automatizados.png">
 </p>
